@@ -53,7 +53,7 @@ def count_total_masts_by_tenant(csv_dict: dict) -> dict:
     return json.dumps(Counter(tenant_list), sort_keys=True, indent=2)
 
 
-def tenant_data_between_dates(csv_dict: dict, start_date: str, end_date: str):
+def tenant_data_between_dates(csv_dict: dict, start_date: str, end_date: str) -> list:
 
     master_array = []
 
