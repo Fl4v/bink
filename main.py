@@ -30,7 +30,7 @@ def second_user_input():
         [1]List of first 5 items sorted by Current Rent\n\
         [2]List of all mast data where the Lease Years is 25 + the Total Rent for the Properties in the list\n\
         [3]A Dictionary of all the Tenants and the count of masts for each\n\
-        [4]List of all mast data where the Lease Start Date is between 1 st of June 1999 and 31 st of August 2007\n\
+        [4]List of all mast data where the Lease Start Date is between 1st of June 1999 and 31st of August 2007\n\
         '
     )
 
