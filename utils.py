@@ -47,7 +47,6 @@ def count_total_masts_by_tenant(csv_dict: dict) -> dict:
 
     tenant_list = []
 
-    for tenant in csv_dict:
-        tenant_list.append(tenant['Tenant Name'])
+    [tenant_list.append(tenant['Tenant Name']) for tenant in csv_dict]
 
     return json.dumps(Counter(tenant_list), sort_keys=True, indent=2)
