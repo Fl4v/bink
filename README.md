@@ -6,9 +6,11 @@ Bink Test Project.
 
 - Make sure that **python 3.7** is installed in your local environment.
 
-Only standard Python libraries are needed for this project, hence no **requirements.txt** has been provided.
+Install the requirements:
 
-To run the script:
+- `pip3 install -r requirements.txt`
+
+To run the script after the requirements have been installed:
 ```
 $ python3 main.py
 ```
