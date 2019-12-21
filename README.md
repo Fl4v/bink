@@ -10,6 +10,8 @@ Install the requirements:
 
 - `pip3 install -r requirements.txt`
 
+### Run
+
 To run the script after the requirements have been installed:
 ```
 $ python3 main.py
