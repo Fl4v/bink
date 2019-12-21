@@ -29,3 +29,13 @@ def master_list_filtered(csv_dict: dict, parameter_to_filter_by: str, filter_by:
             master_array.append(row)
 
     return master_array
+
+
+def calculate_total_rent(array: list):
+
+    total_rent = 0
+
+    for property_info in array:
+        total_rent += float(property_info['Current Rent'])
+
+    return total_rent
